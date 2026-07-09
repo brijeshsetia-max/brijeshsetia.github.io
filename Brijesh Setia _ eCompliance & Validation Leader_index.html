@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)file:///C:/Users/brije/Downloads/index%20(2).html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brijesh Setia | eCompliance &amp; Validation Leader</title>
+  <meta name="description" content="Senior eCompliance &amp; Validation Leader specializing in Global Patient Safety Systems, GxP-Compliant AI Adoption, and FDA Inspection Readiness across Life Sciences.">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./Brijesh Setia _ eCompliance &amp; Validation Leader_index_files/css2" rel="stylesheet">
+  <style>
+    /* ── TOKENS ───────────────────────────────────────────── */
+    :root {
+      --navy:       #0F2340;
+      --navy-mid:   #1A3A5C;
+      --navy-light: #1F4E79;
+      --slate:      #2C4A6E;
+      --teal:       #0E7490;
+      --teal-light: #22D3EE;
+      --cream:      #F7F4EF;
+      --white:      #FFFFFF;
+      --gray-100:   #F1F5F9;
+      --gray-300:   #CBD5E1;
+      --gray-500:   #64748B;
+      --gray-700:   #334155;
+      --text:       #0F172A;
+
+      --display:    'DM Serif Display', Georgia, serif;
+      --body:       'Inter', system-ui, sans-serif;
+      --mono:       'JetBrains Mono', monospace;
+
+      --max:        1100px;
+      --gap:        clamp(2rem, 5vw, 4rem);
+    }
+
+    /* ── RESET ────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--body);
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    /* ── UTILITY ──────────────────────────────────────────── */
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 clamp(1.25rem, 4vw, 2.5rem);
+    }
+    .section {
+      padding: clamp(4rem, 8vw, 6rem) 0;
+    }
+    .eyebrow {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 0.75rem;
+    }
+
+    /* ── NAV ──────────────────────────────────────────────── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(15, 35, 64, 0.96);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .nav-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 clamp(1.25rem, 4vw, 2.5rem);
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-brand {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      color: var(--teal-light);
+      letter-spacing: 0.08em;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.65);
+      letter-spacing: 0.04em;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--teal-light); }
+
+    /* ── HERO ─────────────────────────────────────────────── */
+    #hero {
+      background: var(--navy);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: 60px;
+      position: relative;
+      overflow: hidden;
+    }
+    /* Signature element: diagonal teal rule cutting across hero */
+    #hero::before {
+      content: '';
+      position: absolute;
+      top: 0; right: -10%;
+      width: 55%;
+      height: 100%;
+      background: linear-gradient(135deg, transparent 40%, rgba(14,116,144,0.08) 40%);
+      pointer-events: none;
+    }
+    #hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--teal), transparent);
+    }
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      padding: var(--gap) 0;
+    }
+    .hero-label {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      color: var(--teal-light);
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .hero-label::before {
+      content: '';
+      display: inline-block;
+      width: 2rem;
+      height: 1px;
+      background: var(--teal);
+    }
+    .hero-name {
+      font-family: var(--display);
+      font-size: clamp(3rem, 7vw, 5.5rem);
+      color: var(--white);
+      line-height: 1.05;
+      margin-bottom: 1.25rem;
+    }
+    .hero-name em {
+      font-style: italic;
+      color: var(--teal-light);
+    }
+    .hero-title {
+      font-size: clamp(0.95rem, 2vw, 1.15rem);
+      color: rgba(255,255,255,0.55);
+      font-weight: 300;
+      max-width: 520px;
+      line-height: 1.7;
+      margin-bottom: 2.5rem;
+      letter-spacing: 0.01em;
+    }
+    .hero-tagline {
+      font-family: var(--display);
+      font-style: italic;
+      font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+      color: rgba(255,255,255,0.82);
+      max-width: 480px;
+      line-height: 1.4;
+      margin-bottom: 3rem;
+      border-left: 2px solid var(--teal);
+      padding-left: 1.25rem;
+    }
+    .hero-ctas {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--teal);
+      color: var(--white);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      padding: 0.75rem 1.75rem;
+      border-radius: 2px;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-primary:hover { background: #0891b2; transform: translateY(-1px); }
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      border: 1px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.75);
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      padding: 0.75rem 1.75rem;
+      border-radius: 2px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-ghost:hover { border-color: var(--teal-light); color: var(--teal-light); }
+    .hero-stats {
+      margin-top: 4rem;
+      display: flex;
+      gap: clamp(2rem, 5vw, 4rem);
+      flex-wrap: wrap;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 2.5rem;
+    }
+    .stat-item {}
+    .stat-number {
+      font-family: var(--display);
+      font-size: clamp(2rem, 4vw, 2.75rem);
+      color: var(--white);
+      line-height: 1;
+    }
+    .stat-number span {
+      color: var(--teal-light);
+    }
+    .stat-label {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-top: 0.35rem;
+      font-family: var(--mono);
+    }
+
+    /* ── WHAT I DO ────────────────────────────────────────── */
+    #what {
+      background: var(--white);
+    }
+    .what-header {
+      margin-bottom: 3rem;
+    }
+    .what-header h2 {
+      font-family: var(--display);
+      font-size: clamp(1.8rem, 4vw, 2.75rem);
+      color: var(--navy);
+      line-height: 1.15;
+    }
+    .what-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5px;
+      background: var(--gray-300);
+    }
+    .what-card {
+      background: var(--white);
+      padding: clamp(1.75rem, 4vw, 2.5rem);
+      position: relative;
+    }
+    .what-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px;
+      height: 0;
+      background: var(--teal);
+      transition: height 0.3s ease;
+    }
+    .what-card:hover::before { height: 100%; }
+    .card-icon {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .card-title {
+      font-family: var(--display);
+      font-size: 1.15rem;
+      color: var(--navy);
+      margin-bottom: 0.75rem;
+      line-height: 1.2;
+    }
+    .card-body {
+      font-size: 0.875rem;
+      color: var(--gray-500);
+      line-height: 1.7;
+    }
+
+    /* ── HIGHLIGHTS ───────────────────────────────────────── */
+    #highlights {
+      background: var(--navy);
+      color: var(--white);
+    }
+    .hl-header {
+      margin-bottom: 3rem;
+    }
+    .hl-header h2 {
+      font-family: var(--display);
+      font-size: clamp(1.8rem, 4vw, 2.75rem);
+      color: var(--white);
+      line-height: 1.15;
+    }
+    .hl-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .hl-item {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1.5rem;
+      padding: 1.75rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      align-items: start;
+      transition: background 0.2s;
+    }
+    .hl-item:first-child { border-top: 1px solid rgba(255,255,255,0.06); }
+    .hl-year {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: var(--teal-light);
+      letter-spacing: 0.08em;
+      padding-top: 0.25rem;
+      min-width: 60px;
+    }
+    .hl-content h3 {
+      font-family: var(--display);
+      font-size: 1.05rem;
+      color: var(--white);
+      margin-bottom: 0.35rem;
+      line-height: 1.3;
+    }
+    .hl-content p {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.5);
+      line-height: 1.6;
+    }
+
+    /* ── CREDENTIALS ──────────────────────────────────────── */
+    #credentials {
+      background: var(--gray-100);
+    }
+    .cred-header {
+      margin-bottom: 3rem;
+    }
+    .cred-header h2 {
+      font-family: var(--display);
+      font-size: clamp(1.8rem, 4vw, 2.75rem);
+      color: var(--navy);
+      line-height: 1.15;
+    }
+    .cred-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .cred-group {
+      background: var(--white);
+      padding: 1.5rem;
+      border-radius: 2px;
+    }
+    .cred-group-label {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 0.75rem;
+    }
+    .cred-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .cred-tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: var(--navy);
+      color: var(--white);
+      padding: 0.3rem 0.65rem;
+      border-radius: 2px;
+      letter-spacing: 0.03em;
+    }
+    .cred-tag.teal {
+      background: var(--teal);
+    }
+    .cred-tag.outline {
+      background: transparent;
+      color: var(--navy);
+      border: 1px solid var(--gray-300);
+    }
+
+    /* ── CONTACT ──────────────────────────────────────────── */
+    #contact {
+      background: var(--navy-mid);
+      color: var(--white);
+      text-align: center;
+    }
+    .contact-inner {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+    .contact-inner h2 {
+      font-family: var(--display);
+      font-size: clamp(1.8rem, 4vw, 2.75rem);
+      color: var(--white);
+      margin-bottom: 1rem;
+      line-height: 1.15;
+    }
+    .contact-inner p {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 2.5rem;
+      line-height: 1.7;
+    }
+    .contact-links {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* ── FOOTER ───────────────────────────────────────────── */
+    footer {
+      background: var(--navy);
+      padding: 1.5rem 0;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    footer p {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      color: rgba(255,255,255,0.25);
+      letter-spacing: 0.08em;
+    }
+
+    /* ── SCROLL REVEAL ────────────────────────────────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.55s ease, transform 0.55s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* ── RESPONSIVE ───────────────────────────────────────── */
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .hero-stats { gap: 1.5rem; }
+      .what-grid { gap: 1px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; transition: none; }
+      * { transition-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <span class="nav-brand">BS / BMCSI</span>
+      <ul class="nav-links">
+        <li><a href="file:///C:/Users/brije/Downloads/index%20(2).html#what">Expertise</a></li>
+        <li><a href="file:///C:/Users/brije/Downloads/index%20(2).html#highlights">Highlights</a></li>
+        <li><a href="file:///C:/Users/brije/Downloads/index%20(2).html#credentials">Credentials</a></li>
+        <li><a href="file:///C:/Users/brije/Downloads/index%20(2).html#contact">Connect</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-label">Principal Consultant &nbsp;·&nbsp; Life Sciences</div>
+        <h1 class="hero-name">Brijesh<br><em>Setia</em></h1>
+        <p class="hero-title">
+          eCompliance &amp; Validation Leader &nbsp;·&nbsp; Global Patient Safety Systems<br>
+          GxP / GVP &nbsp;·&nbsp; FDA Inspection Readiness &nbsp;·&nbsp; AI Governance
+        </p>
+        <blockquote class="hero-tagline">
+          Helping regulated organizations adopt AI safely — without slowing down.
+        </blockquote>
+        <div class="hero-ctas">
+          <a href="https://linkedin.com/in/brijeshsetia" target="_blank" rel="noopener" class="btn-primary">
+            ↗ Connect on LinkedIn
+          </a>
+          <a href="mailto:brijesh@bmcsi.org" class="btn-ghost">
+            ✉ Get in Touch
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">20<span>+</span></div>
+            <div class="stat-label">Years in Life Sciences</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">230<span>+</span></div>
+            <div class="stat-label">GxP Apps Transformed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">$5<span>M</span></div>
+            <div class="stat-label">FDA Consent Decree Exit</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">0</div>
+            <div class="stat-label">Critical FDA Findings</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT I DO -->
+  <section id="what" class="section">
+    <div class="container">
+      <div class="what-header reveal visible">
+        <div class="eyebrow">What I Do</div>
+        <h2>Three things that define<br>strong eCompliance leadership.</h2>
+      </div>
+      <div class="what-grid">
+        <div class="what-card reveal visible" style="transition-delay: 0s;">
+          <div class="card-icon">🔬</div>
+          <h3 class="card-title">Patient Safety Validation</h3>
+          <p class="card-body">CSV/CSA for GxP-regulated Patient Safety systems — Argus Safety, RxLogix, IVP Intake &amp; Collect, TalkDesk, aMIR, Salesforce, and Artemis. Change control, SOP authoring, and end-to-end validation lifecycle management in PV-regulated environments.</p>
+        </div>
+        <div class="what-card reveal visible" style="transition-delay: 0.1s;">
+          <div class="card-icon">🏛️</div>
+          <h3 class="card-title">FDA Inspection Readiness</h3>
+          <p class="card-body">Consent decree remediation, inspection preparation, audit management, and CAPA closure across pharma, biotech, and medical device organizations. Consistent zero critical findings track record across FDA inspections, Internal Audits, and regulatory reviews.</p>
+        </div>
+        <div class="what-card reveal visible" style="transition-delay: 0.2s;">
+          <div class="card-icon">🤖</div>
+          <h3 class="card-title">Data &amp; AI Transformation</h3>
+          <p class="card-body">Responsible AI governance frameworks and AI-powered validation automation within GxP-regulated environments. Bridging the gap between AI adoption speed and compliance rigor — enabling organizations to move fast without putting patients or audits at risk.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section id="highlights" class="section">
+    <div class="container">
+      <div class="hl-header reveal visible">
+        <div class="eyebrow" style="color: var(--teal-light)">Career Highlights</div>
+        <h2>20+ years of enterprise-scale<br>program delivery.</h2>
+      </div>
+      <div class="hl-list">
+        <div class="hl-item reveal visible">
+          <div class="hl-year">2010–12</div>
+          <div class="hl-content">
+            <h3>$5M FDA Consent Decree Exit — American Red Cross</h3>
+            <p>FSV &amp; MSIT Lead for Blood Collection, Testing &amp; Distribution ERP validation. Helped ARC exit 14+ years of FDA oversight in 2 years, leading a team of 25 validation SMEs across 3 national site events.</p>
+          </div>
+        </div>
+        <div class="hl-item reveal visible">
+          <div class="hl-year">2020–24</div>
+          <div class="hl-content">
+            <h3>VISiON CSA Transformation — Bristol Myers Squibb</h3>
+            <p>Co-led enterprise-wide CSA transformation across 230+ GxP applications (BMS, Celgene, Juno) over 15 months. Weekly governance reporting to senior directors; monthly C-suite updates. Pioneered AI-assisted CSV documentation — ITVS Science Fair 2nd place.</p>
+          </div>
+        </div>
+        <div class="hl-item reveal visible">
+          <div class="hl-year">2004–08</div>
+          <div class="hl-content">
+            <h3>FDA Inspection — Zero Critical Findings, Fujifilm Medical</h3>
+            <p>Represented QSS function alongside the IT Director in an FDA inspection. Achieved zero critical findings. Also led a full QMS rebuild — SOPs, templates, Master Inventory — from the ground up.</p>
+          </div>
+        </div>
+        <div class="hl-item reveal visible">
+          <div class="hl-year">2012–17</div>
+          <div class="hl-content">
+            <h3>Consent Decree Remediation — Johnson &amp; Johnson</h3>
+            <p>Independent Quality Lead on McNeil/J&amp;J Consumer FDA consent decree remediation (Tylenol-related FDA 483). Delivered GOLD project SAP go-live across 3 phases with zero critical compliance issues.</p>
+          </div>
+        </div>
+        <div class="hl-item reveal visible">
+          <div class="hl-year">2012</div>
+          <div class="hl-content">
+            <h3>DIA Forum Publication</h3>
+            <p>"REMS: Safeguarding Patients and Offering Strategic Opportunity." One of the earliest peer-reviewed analyses positioning REMS as both a patient safety compliance framework and a strategic business opportunity.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDENTIALS -->
+  <section id="credentials" class="section">
+    <div class="container">
+      <div class="cred-header reveal">
+        <div class="eyebrow">Credentials</div>
+        <h2>Certifications &amp; Education</h2>
+      </div>
+      <div class="cred-grid">
+        <div class="cred-group reveal" style="transition-delay: 0.3s;">
+          <div class="cred-group-label">Active Certifications</div>
+          <div class="cred-tags">
+            <span class="cred-tag">CISA</span>
+            <span class="cred-tag">CRISC</span>
+            <span class="cred-tag">CDPSE</span>
+            <span class="cred-tag">PMP</span>
+            <span class="cred-tag">SAPM</span>
+          </div>
+        </div>
+        <div class="cred-group reveal" style="transition-delay: 0.4s;">
+          <div class="cred-group-label">AI &amp; Emerging Tech</div>
+          <div class="cred-tags">
+            <span class="cred-tag teal">AIGP — In Progress</span>
+            <span class="cred-tag outline">Ethics of AI · LSE</span>
+            <span class="cred-tag outline">AI in Pharma · MIT</span>
+          </div>
+        </div>
+        <div class="cred-group reveal" style="transition-delay: 0.5s;">
+          <div class="cred-group-label">Education</div>
+          <div class="cred-tags">
+            <span class="cred-tag outline">MBA · Binghamton / SUNY</span>
+            <span class="cred-tag outline">Advanced PM · Stanford</span>
+            <span class="cred-tag outline">PG Diploma · IMDR</span>
+          </div>
+        </div>
+        <div class="cred-group reveal" style="transition-delay: 0.6s;">
+          <div class="cred-group-label">Core Domains</div>
+          <div class="cred-tags">
+            <span class="cred-tag outline">GxP / GVP</span>
+            <span class="cred-tag outline">SOX</span>
+            <span class="cred-tag outline">21 CFR Part 11</span>
+            <span class="cred-tag outline">ISO 27001</span>
+            <span class="cred-tag outline">NIST</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <div class="eyebrow" style="color: var(--teal-light); text-align: center;">Let's Connect</div>
+        <h2>Navigating AI adoption<br>in a regulated environment?</h2>
+        <p>I work with pharma, biotech, medical device, and CRO organizations to validate and govern complex regulated systems — so they can move fast without putting patients or audits at risk.</p>
+        <div class="contact-links">
+          <a href="https://linkedin.com/in/brijeshsetia" target="_blank" rel="noopener" class="btn-primary">
+            ↗ LinkedIn Profile
+          </a>
+          <a href="mailto:brijesh@bmcsi.org" class="btn-ghost">
+            ✉ brijesh@bmcsi.org
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Brijesh Setia &nbsp;·&nbsp; BMCSI &nbsp;·&nbsp; brijeshsetia.com</p>
+  </footer>
+
+  <script>
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(el => observer.observe(el));
+
+    // Stagger sibling reveals
+    document.querySelectorAll('.what-card, .cred-group').forEach((el, i) => {
+      el.style.transitionDelay = `${i * 0.1}s`;
+    });
+  </script>
+
+
+</body></html>
